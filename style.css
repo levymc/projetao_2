@@ -78,6 +78,7 @@ input:focus {
     width: 935px;
     margin-left: 215px;
     margin-right: 216px;
+    display: flex;
 }
 .container-principal{
     background-color: rgb(249, 214, 220);
