@@ -4,6 +4,17 @@
     font-family: 'Roboto' !important;
     font-style: normal !important;
 }
+body {
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+html {
+    overflow: hidden;
+    height: 100%;
+  }
 .container{
     width: 1366px;
     min-height: 100vh; /* Define uma altura mínima de 100% da altura da tela */
@@ -75,20 +86,20 @@ input:focus {
     display: flex;
     flex-direction: row;
     height: auto;
+    width: 100%;
 }
 .container-conteudo{
     background-color: #E5E5E5;
-    width: 935px;
+    width: 68.5%; /* 935px */
     margin-left: 215px;
     margin-right: 216px;
     display: flex;
-    
 }
 .container-principal{
     background-color: #E5E5E5;
     display: flex;
     flex-direction: column;
-    width: 614px;
+    width: 100%;
     height: auto;
     margin-top: 34px;
     box-sizing: border-box;
@@ -165,6 +176,18 @@ input:focus {
     width: 32px;
     height: 32px;
     background-image: url(img/py.png);
+    background-color: #E5E5E5;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 17px;
+    border-color: black;
+    border-width: 1px;
+}
+.img-cabecalho2{
+    width: 32px;
+    height: 32px;
+    background-image: url(img/bash.png);
     background-color: #E5E5E5;
     background-size: cover;
     background-position: center;
@@ -350,4 +373,29 @@ input:focus {
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
+}
+
+/* Responsividade */
+@media (max-width: 935px) {
+    .container-lateral {
+        display: none;
+    }
+    .container-conteudo {
+        justify-content: center;
+    }
+}
+    
+@media (max-width: 614px) {
+    .container-principal {
+    width: 100%;
+    }
+    input{
+        display:none;
+    }
+    .menu-superior{
+        justify-content: center;
+    }
+    .logo{
+        margin-left: 0;
+    }
 }
