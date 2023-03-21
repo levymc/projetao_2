@@ -69,6 +69,10 @@ input:focus {
 }
 
 /* Conteúdo */
+.dirEsq{
+    min-height: 100vh; /* Define uma altura mínima de 100% da altura da tela */
+    display: flex;
+}
 .container-conteudo{
     background-color: rgb(183, 183, 8);
     width: 935px;
@@ -186,8 +190,9 @@ input:focus {
     background-color: bisque;
 }
 .container-lateral{
+    margin-top: 57px !important;
     margin-left: 29px;
     background-color: rgb(8, 8, 13) ;
     width: 293px;
-    height: 100%;
+    min-height: 100vh; /* Define uma altura mínima de 100% da altura da tela */
 }
