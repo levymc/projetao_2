@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif !important;
     font-style: normal !important;
 }
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
 body {
     overflow: auto;
     height: 100%;
@@ -37,6 +41,7 @@ ion-icon {
 /* Menu Superior */
 .menu-superior{
     position: fixed;
+    z-index: 1000;
     background-color: #FFFFFF;
     width: 100%;
     height: 3.375em;
@@ -238,38 +243,54 @@ input:focus {
     height: 61px;
     margin-left: 17px;
 }
-.img-cabecalho1{
+.img-cabecalho{
     width: 32px;
     height: 32px;
-    background-image: url(img/py.png);
-    background-size: cover;
     background-position: center;
     border-radius: 50%;
-    /* margin-left: 17px; */
-    border-color: black;
-    border-width: 1px;
+}
+.img-cabecalho0{
+    background-image: url(img/ursolino.PNG);
+    background-size: cover;
+}
+.img-cabecalho1{
+    background-image: url(img/ruivex-icon.PNG);
+    background-size: cover;
 }
 .img-cabecalho2{
-    width: 32px;
-    height: 32px;
-    background-image: url(img/bash.png);
+    background-image: url(img/py.png);
     background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    /* margin-left: 17px; */
-    border-color: black;
-    border-width: 1px;
 }
-
-.img-post1{
+.img-cabecalho3{
+    background-image: url(img/node-icon.png);
+    background-size: cover;
+}
+.img-cabecalho4{ /* ursolino */
+    background-image: url(img/ruivex-icon.PNG);
+    background-size: cover;
+}
+.img-cabecalho5{ /* ursolino */
+    background-image: url(img/ursolino.PNG);
+    background-size: cover;
+}
+.img-cabecalho6{ /* ursolino */
+    background-image: url(img/ursolino.PNG);
+    background-size: cover;
+}
+.img-post{
     height: 612px;
+    width: 100%;
+}
+.video-post{
+    height: auto;
     width: 100%;
 }
 .icones-inferior{
     width: 100%;
     height: 39px;
-    
+    padding-top: 0.5em;
 }
+
 .icones-esquerda{
     margin-bottom: 10.44px;
     display: flex;
@@ -281,17 +302,11 @@ input:focus {
 #primeiroPost{
     margin-top: 24px;
 }
-.post2{
+.post{
     box-sizing: border-box;
     margin-bottom: 59px;
-    height: 712px;
+    height: auto;
     background-color: #FFFFFF;
-}
-.post3{
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    margin-bottom: 59px;
-    height: 724px;
 }
 
 /* ________ */
