@@ -16,10 +16,10 @@
             <div><img class="logo" src="img/logo.png" /></div>
             <div class="pesquisar"><input type="text" placeholder="Pesquisar" /></div>
             <div class="icons-esquerda flex2">
-                <div class="mini"><ion-icon name="paper-plane-outline"></ion-icon></div>
-                <div class="mini"><ion-icon name="compass-outline"></ion-icon></div>
-                <div class="mini"><ion-icon name="heart-outline"></ion-icon></div>
-                <div class="mini"><ion-icon name="person-outline"></ion-icon></div>
+                <div class="mini"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                <div class="mini"><a class="text-decoration" href="#"><ion-icon name="compass-outline"></ion-icon></a></div>
+                <div class="mini"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
+                <div class="mini"><a class="text-decoration" href="#"><ion-icon name="person-outline"></ion-icon></a></div>
             </div>
         </div>
 
@@ -27,14 +27,29 @@
             <div class="dirEsq">
                 <div class="container-principal">
                     <div class="container-stories1 flex2">
-                        <div class="stories1"></div>
-                        <div class="stories2"></div>
-                        <div class="stories3"></div>
-                        <div class="stories4"></div>
-                        <div class="stories5"></div>
-                        <div class="stories6"></div>
-                        <div class="stories7"></div>
-                        <div class="div-arrow"><a href="#"><ion-icon class="arrow-icon" name="chevron-forward-circle-outline"></ion-icon></a></div>
+                        <a class="text-decoration expand" href="#">
+                            <div class="stories stories1"></div>
+                            <h5 id="desc">javascript</h5>
+                        </a>
+                        <a class="text-decoration expand" href="#">
+                            <div class="stories stories2"></div>
+                            <h5 id="desc">ursolino</h5>
+                        </a>
+                        <a class="text-decoration expand" href="#">
+                            <div class="stories stories3 "></div>
+                            <h5 id="desc">python</h5>
+                        </a>
+                        <a class="text-decoration expand" href="#">
+                            <div class="stories stories4 "></div>
+                            <h5 id="desc">sanchez</h5>
+                        </a>
+                        <a class="text-decoration expand" href="#">
+                            <div class="stories5 stories"></div>
+                            <h5 id="desc">bash</h5>
+                        </a>
+                        <a class="text-decoration expand" href="#"><div class="stories6 stories"></div></a>
+                        <a class="text-decoration expand" href="#"><div class="stories7 stories"></div></a>
+                        <div class="div-arrow"><a href="#"><ion-icon class="arrow-icon expand" name="chevron-forward-circle-outline"></ion-icon></a></div>
                     </div>
                     <div class="container-posts">
                         <div class="post" id="primeiroPost">
@@ -42,9 +57,9 @@
                                 <div class="img-cabecalho img-cabecalho0"></div>
                                 <div class="titulo1"><h3>ursolino</h3></div>
                                 <div class="dots">
-                                    <a href="#" class="text-decoration"><div class="dot1">.</div></a>
-                                    <a href="#" class="text-decoration"><div class="dot2">.</div></a>
-                                    <a href="#" class="text-decoration"><div class="dot3">.</div></a>
+                                    <a href="#" class="text-decoration expand"><div class="dot1">.</div></a>
+                                    <a href="#" class="text-decoration expand"><div class="dot2">.</div></a>
+                                    <a href="#" class="text-decoration expand"><div class="dot3">.</div></a>
                                 </div>
                             </div>
                             <img class="img-post" src="img/prog-bear.png" />
@@ -53,6 +68,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                                </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
                                 </div>
                             </div>
                         </div>
@@ -73,6 +91,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
                                 </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
+                                </div>
                             </div>
                         </div>
                         <div class="post">
@@ -91,6 +112,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                                </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
                                 </div>
                             </div>
                         </div>
@@ -111,6 +135,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
                                 </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
+                                </div>
                             </div>
                         </div>
                         <div class="post">
@@ -129,6 +156,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                                </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
                                 </div>
                             </div>
                         </div>
@@ -149,6 +179,9 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
                                 </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
+                                </div>
                             </div>
                         </div>
                         <div class="post">
@@ -167,6 +200,31 @@
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
                                     <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                                </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="cabecalho1 flex2">
+                                <div class="img-cabecalho img-cabecalho7"></div>
+                                <div class="titulo1"><h3>ursolino</h3></div>
+                                <div class="dots">
+                                    <a href="#" class="text-decoration"><div class="dot1">.</div></a>
+                                    <a href="#" class="text-decoration"><div class="dot2">.</div></a>
+                                    <a href="#" class="text-decoration"><div class="dot3">.</div></a>
+                                </div>
+                            </div>
+                            <img class="img-post" src="img/super-brocs.png" /> 
+                            <div class="icones-inferior flex2">
+                                <div class="icones-esquerda">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="heart-outline"></ion-icon></a></div>
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a></div>
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="paper-plane-outline"></ion-icon></a></div>
+                                </div>
+                                <div class="icon-direita">
+                                    <div class="mini2"><a class="text-decoration" href="#"><ion-icon name="bookmark-outline"></ion-icon></a></div>
                                 </div>
                             </div>
                         </div>
