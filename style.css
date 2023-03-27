@@ -499,6 +499,9 @@ input:focus {
 }
     
 @media (max-width: 614px) {
+    .container{
+        width: 100%;
+    }
     .container-principal {
         width: 100%;
     }
@@ -509,6 +512,7 @@ input:focus {
     .container-conteudo {
         justify-content: center;
         margin-left: auto; margin-right: auto;
+        width: 100%;
     }
     input{
         display:none;
