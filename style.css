@@ -151,7 +151,7 @@ input:focus {
     margin-top: 0.2em;
     text-align: center;
 }
-.stories{
+.stories-fundo{
     width: 3.11em;
     height: 3.11em;
     background: url(img/stories_background.jpg);
@@ -159,16 +159,23 @@ input:focus {
     background-repeat: no-repeat;
     border-radius: 50%;
     background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
 }
-.stories1{
-    background-image: url(img/js.svg), url(img/stories_background.jpg);
-    background-size: 80%, 3.11em 3.11em;
+.stories{
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 50%;
+    justify-content: center;
+    z-index: 2;
 }
 .stories2{
     background: url(img/ursolino2.PNG), url(img/stories_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%, 3.11em 3.11em;
+    background-size: 60%, 3.11em 3.11em;
 }
 .stories3{
     background-image: url(img/py.png), url(img/stories_background.jpg);
@@ -196,20 +203,20 @@ input:focus {
 .stories6{
     width: 3.5em;
     height: 3.5em;
-    background-image: url(img/py.png), url(img/stories_background.jpg);
+    background-image: url(img/brocs.PNG), url(img/stories_background.jpg);
     background-size: 80%, 3.5em 3.5em;
     background-repeat: no-repeat;
     border-radius: 50%;
-    background-position: center bottom;
+    background-position: center center;
 }
 .stories7{
     width: 3.5em;
     height: 3.5em;
-    background-image: url(img/py.png), url(img/stories_background.jpg);
+    background-image: url(img/ruivex2.png), url(img/stories_background.jpg);
     background-size: 80%, 3.5em 3.5em;
     background-repeat: no-repeat;
     border-radius: 50%;
-    background-position: center bottom;
+    background-position: center center;
 }
 .div-arrow a{
     text-decoration: none;
@@ -426,13 +433,35 @@ input:focus {
     background-position: center;
     border-radius: 50%;
 }
-.img-sug1{
+.img-sugestao{
     width: 32px;
     height: 32px;
-    background-image: url(img/js.svg);
-    background-size: cover;
     background-position: center;
     border-radius: 50%;
+}
+.img-sug1{
+    background-image: url(img/monique1.png);
+    background-size: cover;
+}
+.img-sug2{
+    background-image: url(img/holi-color.PNG);
+    background-size: cover;
+}
+.img-sug3{
+    background-image: url(img/ruivo.PNG);
+    background-size: cover;
+}
+.img-sug4{
+    background-image: url(img/clara.PNG);
+    background-size: cover;
+}
+.img-sug5{
+    background-image: url(img/thais.png);
+    background-size: cover;
+}
+.img-sug6{
+    background-image: url(img/frog.png);
+    background-size: cover;
 }
 .escritos-sug1{
     margin-left: 11px;
@@ -470,7 +499,21 @@ input:focus {
 .sobre{
     width: 300px;
     height: 42px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #C7C7C7;
 }
+.sobre p, .sobre a{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
 .sobre h5{
     font-weight: 400;
     font-size: 11px;
@@ -485,6 +528,7 @@ input:focus {
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
+    color: #C7C7C7;
 }
 
 /* Responsividade */
