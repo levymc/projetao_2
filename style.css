@@ -152,10 +152,10 @@ input:focus {
     text-align: center;
 }
 .stories-fundo{
-    width: 3.11em;
-    height: 3.11em;
+    width: 3.7em;
+    height: 3.7em;
     background: url(img/stories_background.jpg);
-    background-size: 3.11em 3.11em;
+    background-size: 3.7em 3.7em;
     background-repeat: no-repeat;
     border-radius: 50%;
     background-position: center center;
@@ -165,58 +165,11 @@ input:focus {
     z-index: 1;
 }
 .stories{
-    width: 2.7em;
-    height: 2.7em;
+    width: 3.2em;
+    height: 3.2em;
     border-radius: 50%;
     justify-content: center;
     z-index: 2;
-}
-.stories2{
-    background: url(img/ursolino2.PNG), url(img/stories_background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%, 3.11em 3.11em;
-}
-.stories3{
-    background-image: url(img/py.png), url(img/stories_background.jpg);
-    background-size: 80%, 3.11em 3.11em;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-.stories4{
-    background-image: url(img/sanchez.PNG), url(img/stories_background.jpg);
-    background-size: 75%, 3.11em 3.11em;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    background-position: center center;
-}
-
-.stories5{
-    width: 3.5em;
-    height: 3.5em;
-    background-image: url(img/bash.png), url(img/stories_background.jpg);
-    background-size: 80%, 3.5em 3.5em;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    background-position: center center;
-}
-.stories6{
-    width: 3.5em;
-    height: 3.5em;
-    background-image: url(img/brocs.PNG), url(img/stories_background.jpg);
-    background-size: 80%, 3.5em 3.5em;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    background-position: center center;
-}
-.stories7{
-    width: 3.5em;
-    height: 3.5em;
-    background-image: url(img/ruivex2.png), url(img/stories_background.jpg);
-    background-size: 80%, 3.5em 3.5em;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    background-position: center center;
 }
 .div-arrow a{
     text-decoration: none;
@@ -428,7 +381,7 @@ input:focus {
 .img-superior-lateral{
     width: 56px;
     height: 56px;
-    background-image: url(img/js.svg);
+    background-image: url(img/kevin.PNG);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
